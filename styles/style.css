@@ -99,9 +99,12 @@ body {
     background-color: var(--cor-primaria-black);
 }
 
+.apresentacao__links__navegacao img {
+    width: 40px;
+}
+
 .img {
     width: 50%;
-    /* height: 600px; */
 }
 
 .footer {
