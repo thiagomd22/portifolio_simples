@@ -83,16 +83,18 @@ body {
 }
 
 .apresentacao__links__navegacao {
+    display: flex;
     color: var(--cor-secundaria);
     width: 70%;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
-    text-decoration: none;    
+    text-decoration: none; 
 }
 
 .apresentacao__links__navegacao:hover {
@@ -100,6 +102,7 @@ body {
 }
 
 .apresentacao__links__navegacao img {
+    padding-right: 10px;
     width: 40px;
 }
 
