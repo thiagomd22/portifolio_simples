@@ -108,7 +108,7 @@ body {
 
 .img {
     width: 60%;
-    height: fit-content;
+    height: max-content;
     border-radius: 50%;
 }
 
