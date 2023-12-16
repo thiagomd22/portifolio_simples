@@ -1,0 +1,2 @@
+# Portfólio do Thiago
+Projeto no qual utilizo meu próprio conhecimento e habilidade adquiridas para mostra sobre quem sou e alguns dos meus projetos e habilidaes. Tenho construído meu projeto com as diversas linguagens que trabalho.
