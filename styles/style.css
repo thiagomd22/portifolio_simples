@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
 :root {
-    --cor-primaria: #fff;
-    --cor-primaria-black: #D3D3D3; 
-    --cor-secundaria: #000000;
-    --cor-terciaria: #00BFFF;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #171717;
+    --cor-terciaria: #DA0037;
+    --cor-quaternaria: #444444;
 
-    --fonte-principal: 'Krona One', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-principal: 'Poppins', sans-serif;
 }
 
 * {
@@ -32,7 +30,7 @@ body {
 }
 
 .header__menu__link {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -60,11 +58,11 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--fonte-principal);
-    font-size: 2.25rem;
+    font-size: 5rem;
 }
 
 .apresentacao__conteudo__texto {
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-principal);
     font-size: 1.5rem;
 }
 
@@ -90,7 +88,7 @@ body {
     justify-content: center;
     border-radius: 8px;
     border: 2px solid var(--cor-terciaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -113,8 +111,8 @@ body {
 
 .footer {
     background-color: var(--cor-terciaria);
-    color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
     font-size: 1.125rem;
     font-weight: 400;
     text-align: center;
