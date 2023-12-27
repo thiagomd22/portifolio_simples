@@ -24,26 +24,59 @@ body {
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100vw;
     height: 80px; 
-    background-color: var(--cor-terciaria);
-    padding-left: 10%;
-    gap: 80px;
+    background: linear-gradient( #DA0037, #ff0040, #ff3366, #ff668c);
+    position: fixed;
 }
 
-.header__menu__link {
+.header-logo img{
+    width: 5rem;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.header-menu-item {
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-primaria);
     text-decoration: none;
+}   
+
+.header-cv {
+    width: 10%;
+    border: 3px solid var(--cor-primaria);
+    border-radius: 8px;
 }
+
+.header-menu-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.header-menu-cv:hover{
+    background-color: #ff668c;
+}
+
+
 
 .apresentacao {
     padding: 5% 15%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 82px;
+    
 }
 
 .apresentacao__conteudo {
@@ -51,6 +84,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-bottom: 100px;
 }
 
 .titulo-destaque {
@@ -83,7 +117,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 5rem;
 }
 
 .apresentacao__links__navegacao {
@@ -111,9 +145,8 @@ body {
 }
 
 
-.img {
-    width: 100%;
-    border-radius: 50%;
+.apresentacao .foto img{
+    width: 50%;
 }
 
 .footer {
