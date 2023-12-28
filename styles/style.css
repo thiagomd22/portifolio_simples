@@ -38,7 +38,7 @@ body {
 .header-menu {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
 }
 
 .header-menu-item {
@@ -48,6 +48,10 @@ body {
     color: var(--cor-primaria);
     text-decoration: none;
 }   
+
+.icon {
+    padding-right: 15px;
+}
 
 .header-cv {
     width: 10%;
