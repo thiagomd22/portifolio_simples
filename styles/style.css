@@ -27,25 +27,28 @@ body {
     justify-content: space-around;
     width: 100vw;
     height: 80px; 
-    background: linear-gradient( #DA0037, #ff0040, #ff3366, #ff668c);
+    background-color: var(--cor-primaria);
     position: fixed;
 }
 
 .header-logo img{
-    width: 5rem;
+    width: 6rem;
 }
 
 .header-menu {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 60%;
+    height: 100%;
+    border-bottom: 1px solid var(--cor-terciaria);
 }
 
 .header-menu-item {
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
     text-decoration: none;
 }   
 
@@ -55,7 +58,7 @@ body {
 
 .header-cv {
     width: 10%;
-    border: 3px solid var(--cor-primaria);
+    border: 3px solid var(--cor-terciaria);
     border-radius: 8px;
 }
 
@@ -66,7 +69,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--cor-primaria);
+    color: var(--cor-terciaria);
     text-decoration: none;
     width: 100%;
     padding: 10px 0px;
