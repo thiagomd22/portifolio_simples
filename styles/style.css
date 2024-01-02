@@ -47,7 +47,7 @@ body {
 .header-menu-item {
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--cor-terciaria);
     text-decoration: none;
 }   
@@ -82,6 +82,8 @@ body {
 .principal {
     padding: 5% 5%;
     max-width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .home {
@@ -118,48 +120,17 @@ body {
     max-width: 900px;
 }
 
-.home-foto {
-}
-
-.home-foto-img{
-}
-
-.redes-geral {
+.home-redes-icons {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
+    gap: 40px;
 }
 
-.redes-titulo-div {
-    text-align: center;
+.home-redes-social img {
+    width: 40px;
 }
 
-.redes-titulo {
-    font-family: var(--fonte-principal);
-    font-weight: 400;
-    font-size: 5rem;
-}
-
-.redes-icons {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.redes-social {
-    display: flex;
-    color: var(--cor-secundaria);
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    font-family: var(--fonte-principal);
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none; 
+.home-redes-social {
+   
 }
 
 .redes-social:hover {
@@ -208,22 +179,42 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 1800px) {
+    .home {
+        display: flex;
+        padding: 0;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        gap: 0px;
+    }
+
+    .home-texto {
+        gap: 0px;
+    }
+
+    .home-redes-icons {
+        padding-top: 15px;
+    }
+}
+
 @media (max-width: 1200px) {
-    
-    .header {
-        padding: 10%;
-    }
-
-    .header__menu {
-        justify-content: center;
+    .header{
+        display: flex;
+        flex-wrap: wrap;
     }
     
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
+    .header-menu {
+        display: none;
     }
 
-    .apresentacao__conteudo {
-        width: auto;
+    .header-cv {
+        width: 30%;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 15%;
     }
 }
