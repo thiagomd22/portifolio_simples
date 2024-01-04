@@ -38,7 +38,7 @@ body {
 .header-menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 60%;
     height: 100%;
     border-bottom: 1px solid var(--cor-terciaria);
@@ -90,7 +90,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 150px 0px 300px 90px;
+    padding: 150px 0px 210px 90px;
     gap: 150px;
 }
 
@@ -129,10 +129,6 @@ body {
     width: 40px;
 }
 
-.home-redes-social {
-   
-}
-
 .redes-social:hover {
     background-color: var(--cor-terciaria-hover);
 }
@@ -144,24 +140,63 @@ body {
 
 .sobreme {
     display: flex;
-    width: 100%;
+    padding: 90px 90px 300px 90px;
+    font-family: var(--fonte-principal);
+    gap: 50px;
 }
 
 .sobreme-conteudo {
     display: flex;
     flex-direction: column;
+    width: 60%;
     gap: 40px;
 }
 
 .sobreme-titulo {
-    font-family: var(--fonte-principal);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 5rem;
+    border-bottom: 1px solid var(--cor-terciaria);
 }
 
 .sobreme-texto {
-    font-family: var(--fonte-principal);
     font-size: 1.5rem;
+}
+
+.sobreme-skills {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 140px;
+}
+
+.sobreme-skills-titulo {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.skill-front {
+    padding-bottom: 30px;
+}
+
+.skill-back {
+    padding-bottom: 30px;
+}
+
+.sobreme-skill-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sobreme-skill {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+    border-radius: 100px;
+    width: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer {
@@ -185,7 +220,6 @@ body {
         padding: 0;
         padding-top: 5%;
         padding-bottom: 10%;
-        gap: 0px;
     }
 
     .home-texto {
@@ -194,6 +228,18 @@ body {
 
     .home-redes-icons {
         padding-top: 15px;
+    }
+
+    .sobreme {
+        padding: 0;
+    }
+
+    .sobreme-conteudo {
+        width: auto;
+    }
+
+    .sobreme-skills {
+        width: auto;
     }
 }
 
@@ -217,4 +263,24 @@ body {
         padding: 0;
         padding-top: 15%;
     }
+
+    .sobreme {
+        padding: 0;
+       flex-direction: column;
+    }
+
+    .sobreme-conteudo {
+        width: auto;
+    }
+
+    .sobreme-skills {
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-foto-img {
+        width: 100%;
+    }
+
 }

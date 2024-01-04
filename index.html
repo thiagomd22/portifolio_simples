@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">  
     <link rel="stylesheet" href="./styles/style.css">
     <title>Portfólio | Thiago</title>
 </head>
@@ -19,28 +19,25 @@
       </div>
         
       <div class="header-menu">
-          <a class="header-menu-item" href="index.html"><i class="bi bi-house icon"></i>Home</a>
-          <a class="header-menu-item" href=""><i class="bi bi-display icon"></i>Projetos</a>            
-          <a class="header-menu-item" href=""><i class="bi bi-clipboard2-data-fill icon"></i>Skills</a>
-          <a class="header-menu-item" href=""><i class="bi bi-briefcase icon"></i>Experiência</a>
-          <a class="header-menu-item" href=""><i class="bi bi-bank2 icon"></i>Formação</a>
-          <a class="header-menu-item" href=""><i class="bi bi-person icon"></i>About</a>
-          <a class="header-menu-item" href=""><i class="bi bi-telephone-inbound-fill icon"></i>Contato</a>
+          <a class="header-menu-item" href="#home">Home</a>
+          <a class="header-menu-item" href="#sobreme">Sobre/Skills</a>
+          <a class="header-menu-item" href="">Projetos/Formação</a>            
+          <a class="header-menu-item" href="">Contato</a>
       </div>
         
       <div class="header-cv">
-          <a class="header-menu-cv" href="">Baixar CV</a>
+          <a class="header-menu-cv" href="assets/Profile Geral Dev.pdf">Baixar CV</a>
       </div>
         
     </header>
     
     <main class="principal">
         
-        <div class="home">
+        <div class="home" id="home">
             <div class="home-texto">
                 <h1 class="home-texto-titulo">I'am <strong class="home-texto-titulo-destaque">Thiago Meireles!</strong></h1>
                 <p class="home-texto-subtitulo">FullStack Developer</p>
-                <p class="home-texto-texto">Tenho 19 anos, um ano de experiência na área como Freelancer e muitos projetos no meu Portfólio. Estou em busca na minha primeira vaga no mercado da Tecnologia. Amo família, games e código. Bora nessa?</p>  
+                <p class="home-texto-texto">Bem vindo ao meu Portfólio. Para mim, é um prazer tê-lo aqui. Fique à vontade para me conhecer um pouco e ver toda a minha carreira na Tecnologia. A baixo estão alguns links referentes a mim:</p>  
                 <div class="home-redes-icons">
                     <a class="home-redes-social" href="https://www.linkedin.com/in/thiagomeir/"><img src="./assets/linkedin-icon-512x512-dhkaf9ri.png"></a>  
                     <a class="home-redes-social" href="https://github.com/thiagomd22"> <img src="./assets/git hub icon.png"> </a>   
@@ -54,12 +51,73 @@
 
         </div>
 
-        <div class="sobreme">
+        <div class="sobreme" id="sobreme">
+            
             <div class="sobreme-conteudo">
                 <h1 class="sobreme-titulo">Sobre mim</h1>
-                <p class="sobreme-texto">Olá, sou Thiago, sou movido pelo sonho de ajudar as pessoas em tudo o que eu fizer. Diante disso, iniciei o curso de Psicologia na UFBA, e encontrei na Tecnologia ,de maneira conjunta, outro lugar para através das minhas habilidades e competências, permitir que as pessoas sejam felizes com seus objetivos. Planejo construir uma carreia onde a Tecnologia e a Psicologia andem de maneira harmônica, sabendo lidar com as pessoas paras realizar os seus projetos de uma maneira perfeita. Além de tudo isso, amo a música, jogos eletrônicos e a minha família.</p>
-            </d>
+                <div class="sobreme-texto">
+                    <p>Me chamo Thiago Meireles, tenho 19 anos, desde criança sempre gostei de mexer em computadores e de aprender coisas novas e diferentes.</p>
+                    <br>
+                    <p>Em 2023, decidi começar meus estudos em programação. Desta forma, focando em Javascript para a área de Desenvolvimento Frontend. Escolhi o Javascript devido a sua grande comunidade, enorme potencial de crescimento e sua grande adaptabilidade que se expande para a Web, Mobile e Backend, através de React e Node.</p>
+                    <br>
+                    <p>Atuo como freelancer visando desenvolver minhas habilidades e criar conexões significativas enquanto desenvolvo meus projetos pessoais.</p>
+                    <br>
+                    <p>Estou buscando minha primeira vaga onde possa fundir meu amor pelo código com a comunicação. Se você tem uma vaga que eu poderia gostar, vamos nos conectar?!</p>
+                    <br>
+                </div>
             </div>
+            
+            <div class="sobreme-skills">
+                
+                <h1 class="sobreme-skills-titulo">Minhas Skills:</h1>
+                
+                <div class="skill-front">
+                    <h2><i class="bi bi-front"></i> Front-End</h2>
+                    <div class="sobreme-skill-layout">
+                        <div class="sobreme-skill">HTML5</div>
+                        <div class="sobreme-skill">CSS3</div>
+                        <div class="sobreme-skill">SASS</div>
+                        <div class="sobreme-skill">BootStrap</div>
+                        <div class="sobreme-skill">TailwindCSS</div>
+                        <div class="sobreme-skill">JavaScript</div>
+                        <div class="sobreme-skill">TypeSript</div>
+                        <div class="sobreme-skill">React</div>
+                        <div class="sobreme-skill">Next.js</div>
+                        <div class="sobreme-skill">Angular</div>
+                        <div class="sobreme-skill">Vue.js</div>
+                        <div class="sobreme-skill">Styled_Components</div>
+                    </div>
+                </div>
+                
+                <div class="skill-back">
+                    <h2><i class="bi bi-database-fill"></i> Back-End</h2>
+                    <div class="sobreme-skill-layout">
+                        <div class="sobreme-skill">JavaScript</div>
+                        <div class="sobreme-skill">Node.js</div>
+                        <div class="sobreme-skill">Banco_de_Dados</div>
+                        <div class="sobreme-skill">Express.js</div>
+                        <div class="sobreme-skill">MySql</div>
+                        <div class="sobreme-skill">MongoDb</div>
+                        <div class="sobreme-skill">Java</div>    
+                        <div class="sobreme-skill">API_Rest</div>    
+                    </div>
+                </div>
+                
+                <div class="skill-tools">
+                    <h2><i class="bi bi-tools"></i> Tools</h2>
+                    <div class="sobreme-skill-layout">
+                        <div class="sobreme-skill">Jest</div>
+                        <div class="sobreme-skill">TestLibrary</div>
+                        <div class="sobreme-skill">Git</div>
+                        <div class="sobreme-skill">GitHub</div>
+                        <div class="sobreme-skill">PostMan</div>
+                        <div class="sobreme-skill">Figma</div>
+                        <div class="sobreme-skill">Inglês</div>    
+                    </div>
+                </div>
+                    
+            </div>
+
         </div>
 
     
