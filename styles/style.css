@@ -199,6 +199,57 @@ body {
     padding-right: 10px;
 }
 
+.contato {
+    font-family: var(--fonte-principal);
+    padding: 90px 90px 300px 90px;
+}
+
+.contato-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.contato-div-titulo {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 5rem;
+    border-bottom: 1px solid var(--cor-terciaria);
+    width: 60%;
+}
+
+.contato-div-texto {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.contato-div-linkedin {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.contato-div-email {
+    display: flex;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+.contato-div-email a{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.contato-div-email i{
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 3rem;
+}
+
 .footer {
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
@@ -232,6 +283,7 @@ body {
 
     .sobreme {
         padding: 0;
+        padding-top: 90px;
     }
 
     .sobreme-conteudo {
@@ -240,6 +292,11 @@ body {
 
     .sobreme-skills {
         width: auto;
+    }
+
+    .contato {
+        padding: 0;
+        padding-top: 90px;
     }
 }
 
@@ -275,6 +332,10 @@ body {
 
     .sobreme-skills {
         width: auto;
+    }
+
+    .contato {
+        padding: 0;
     }
 }
 
