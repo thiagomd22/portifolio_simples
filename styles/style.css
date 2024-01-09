@@ -199,6 +199,74 @@ body {
     padding-right: 10px;
 }
 
+
+.projects-form {
+    font-family: var(--fonte-principal);
+    padding: 90px 90px 300px 90px;
+}
+
+.projects-form-titulo {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 5rem;
+    border-bottom: 1px solid var(--cor-terciaria);  
+}
+
+.project {
+    display: flex;
+    padding-top: 50px;
+    width: auto;
+    gap: 40px;
+}
+
+.project-img {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: var(--cor-terciaria);
+}
+
+.project-img img {
+    width: 40rem;
+}
+
+.project-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo-project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.titulo-project-titulo {
+    font-size: 2rem;
+}
+
+.titulo-project-icons {
+    display: flex;
+    gap: 45px;
+}
+
+.titulo-project-deploy {
+    font-size: 2rem;
+}
+
+.titulo-project a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+
+}
+
+.text-project {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
 .contato {
     font-family: var(--fonte-principal);
     padding: 90px 90px 300px 90px;
@@ -292,6 +360,11 @@ body {
 
     .sobreme-skills {
         width: auto;
+    }
+
+    .projects-form {
+        padding: 0;
+        padding-top: 90px;
     }
 
     .contato {
