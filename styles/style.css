@@ -201,7 +201,7 @@ body {
 
 .projects-form {
     font-family: var(--fonte-principal);
-    padding: 90px 90px 300px 90px;
+    padding: 90px 90px 90px 90px;
 }
 
 .projects-form-titulo {
@@ -226,6 +226,10 @@ body {
 }
 
 .project-img img {
+    width: 40rem;
+}
+
+.project-img video {
     width: 40rem;
 }
 
@@ -265,6 +269,57 @@ body {
     font-size: 1.5rem;
     padding-bottom: 30px;
 }
+
+.formacao {
+    font-family: var(--fonte-principal);
+    padding-top: 60px;
+}
+
+.formacao-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+    border-bottom: 1px solid var(--cor-terciaria);
+    width: auto;
+}
+
+.formacao-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 20rem;
+}
+
+.formacao-layout {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formacao-titulo {
+    font-size: 2rem;
+}
+
+.formacao-descricao {
+    font-size: 1.5rem;
+}
+
+.formacao-date {
+   font-size: 1.35rem; 
+}
+
+.formacao-status {
+    font-size: 1.35rem;
+    color: var(--cor-terciaria);
+}
+
+
+
+
 
 .contato {
     font-family: var(--fonte-principal);
