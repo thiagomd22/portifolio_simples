@@ -580,4 +580,41 @@ body {
         width: 100%;
     }
 
+    .home-texto {
+        text-align: center;
+    }
+
+    .home-redes-icons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-texto-titulo {
+        font-size: 1.5rem;
+    }
+
+    .home-texto-subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .home-texto-texto {
+        font-size: 1rem;
+    }
+
+    .projects-form-titulo {
+        font-size: 2rem;
+    }
+
+    .formacao-total {
+        flex-direction: column;
+    }
+
+    .formacao-layout {
+        width: auto;
+    }
+
+    .contato-div-email a{
+        font-size: 1rem;
+    }
+
 }
