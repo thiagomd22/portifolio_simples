@@ -298,6 +298,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .formacao-titulo {
@@ -388,7 +389,7 @@ body {
         display: flex;
         padding: 0;
         padding-top: 5%;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
 
     .home-texto {
@@ -414,19 +415,24 @@ body {
 
     .projects-form {
         padding: 0;
-        padding-top: 90px;
+        padding-top: 60px;
     }
 
     .contato {
         padding: 0;
-        padding-top: 90px;
+        padding-top: 0px;
     }
 }
 
 @media (max-width: 1200px) {
     .header{
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        height: 40px;
+    }
+
+    .header-logo img{
+        width: 3rem;
     }
     
     .header-menu {
@@ -434,7 +440,12 @@ body {
     }
 
     .header-cv {
+        display: flex;
+        align-items: center;
         width: 30%;
+        height: 2.5rem;
+        padding: 0;
+        border: none;
     }
 
     .home {
@@ -442,11 +453,32 @@ body {
         flex-direction: column;
         padding: 0;
         padding-top: 15%;
+        gap: 10px;
+    }
+
+    .home-texto-titulo {
+        font-size: 2.5rem;
+    }
+
+    .home-texto-subtitulo {
+        font-size: 2rem;
+    }
+
+    .home-texto-texto {
+        font-size: 1.5rem;
     }
 
     .sobreme {
         padding: 0;
        flex-direction: column;
+    }
+
+    .sobreme-titulo {
+        font-size: 3rem;
+    }
+
+    .sobreme-texto {
+        font-size: 1rem;
     }
 
     .sobreme-conteudo {
@@ -455,10 +487,91 @@ body {
 
     .sobreme-skills {
         width: auto;
+        padding: 0;
+    }
+
+    .sobreme-skills-titulo {
+        font-size: 2.0rem;
+    }
+
+    .project {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .titulo-project-titulo {
+        font-size: 1rem;
+    }
+
+    .text-project {
+        font-size: 1rem;
+    }
+
+    .sobreme-skill {
+        font-size: 1rem;
+    }
+
+    .projects-form-titulo {
+        font-size: 3rem;
+    }
+
+    .project-img {
+        display:flex ;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 30px;
+        background-color: var(--cor-terciaria);
+    }
+    
+    .project-img img {
+        width: 20rem;
+    }
+    
+    .project-img video {
+        width: 20rem;
+    }
+
+    .formacao-title {
+        font-size: 1.6rem;
+    }
+
+    .formacao-titulo {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .formacao-descricao {
+        font-size: 1rem;
+    }
+
+    .formacao-date {
+        font-size: 1rem;    
+    }
+
+    .formacao-status {
+        font-size: 1rem;
     }
 
     .contato {
         padding: 0;
+    }
+
+    .contato-div-titulo {
+        font-size: 2.5rem;
+    }
+
+    .contato-div-texto {
+        font-size: 1rem;
+        width: auto;
+    }
+
+    .contato-div-email {
+        display: flex;
+        align-items: center;
+    }
+
+    .contato-div-email a{
+        font-size: 2rem;
     }
 }
 
