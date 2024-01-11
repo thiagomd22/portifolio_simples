@@ -278,10 +278,13 @@ body {
 .formacao-title {
     display: flex;
     justify-content: center;
-    font-weight: 400;
-    font-size: 2.5rem;
     border-bottom: 1px solid var(--cor-terciaria);
     width: auto;
+}
+
+.formacao-title-titulo {
+    font-weight: 600;
+    font-size: 5rem;   
 }
 
 .formacao-total {
@@ -457,7 +460,7 @@ body {
     }
 
     .home-texto-titulo {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
     .home-texto-subtitulo {
@@ -500,7 +503,11 @@ body {
     }
 
     .titulo-project-titulo {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .formacao-title-titulo {
+        font-size: 3rem;
     }
 
     .text-project {
@@ -557,7 +564,7 @@ body {
     }
 
     .contato-div-titulo {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .contato-div-texto {
@@ -590,7 +597,7 @@ body {
     }
 
     .home-texto-titulo {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .home-texto-subtitulo {
@@ -602,7 +609,8 @@ body {
     }
 
     .projects-form-titulo {
-        font-size: 2rem;
+        font-size: 2.99rem;
+        font-weight: 600;
     }
 
     .formacao-total {
@@ -613,8 +621,17 @@ body {
         width: auto;
     }
 
+    .formacao-date {
+        text-decoration: none;
+    }
+
+    .formacao-title-titulo {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
     .contato-div-email a{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
 }
