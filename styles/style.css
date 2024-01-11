@@ -618,3 +618,9 @@ body {
     }
 
 }
+
+@media (max-width: 400px) {
+    .header-cv {
+        width: 50%;
+    }
+}
