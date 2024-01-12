@@ -729,6 +729,7 @@ body {
 
     .home-texto {
         text-align: center;
+        gap: 0px;
     }
 
     .home-redes-icons {
@@ -748,13 +749,30 @@ body {
         font-size: 1rem;
     }
 
+    .home-redes-social img {
+        width: 30px;
+    }
+
     .projects-form-titulo {
-        font-size: 2.99rem;
+        font-size: 3rem;
         font-weight: 600;
     }
 
+    .titulo-project-titulo {
+        font-size: 1rem;
+    }
+
+    .sobreme-skill {
+        font-size: 75%;
+    }
+
+    .project-img {
+        padding: 0;
+    }
+    
     .formacao-total {
         flex-direction: column;
+        padding-top: 20px;
     }
 
     .formacao-layout {
@@ -763,6 +781,10 @@ body {
 
     .formacao-date {
         text-decoration: none;
+    }
+
+    .contato-div-titulo {
+        width: 100%;
     }
 
     .formacao-title-titulo {
