@@ -388,24 +388,87 @@ body {
 }
 
 @media (max-width: 1800px) {
+    .header {
+        height: 60px;
+    }
+
+    .header-logo img{
+        width: 4.5rem;
+    }
+    
+    .header-menu-item {
+        font-size: 1.125rem;
+    }
+
+    .header-cv {
+        border: 2.25px solid var(--cor-terciaria);
+      }
+
+    .header-menu-cv {
+        font-size: 1.125rem;
+    }
+
     .home {
         display: flex;
         padding: 0;
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-left: 5%;
+        gap: 50px;
     }
 
-    .home-texto {
-        gap: 0px;
+    .home-texto-titulo {
+        font-size: 3.75rem;
+    }
+
+    .home-texto-subtitulo {
+        font-size: 2.25rem;
+    }
+      
+    .home-texto-texto {
+        font-size: 1.125rem;
+        max-width: 675px;
     }
 
     .home-redes-icons {
         padding-top: 15px;
     }
 
+    .home-foto {
+       zoom: 75%;
+    }
+
+    .home-redes-social img {
+        width: 40px;
+    }
+
+    .sobreme-titulo {
+        font-size: 3.75rem;
+    }
+      
+      .sobreme-texto {
+        font-size: 1.125rem;
+    }
+      
+      .sobreme-skills {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding-top: 140px;
+    }
+      
+      .sobreme-skills-titulo {
+        font-size: 2.25rem;
+    }
+
+    .sobreme-skill {
+        font-size: 75%;
+    }
+
     .sobreme {
         padding: 0;
-        padding-top: 90px;
+        padding-top: 110px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .sobreme-conteudo {
@@ -414,16 +477,93 @@ body {
 
     .sobreme-skills {
         width: auto;
+        padding-top: 70px;
     }
 
     .projects-form {
         padding: 0;
         padding-top: 60px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .project {
+        gap: 30px;
+    }
+
+    .projects-form-titulo {
+        font-size: 3.75rem;
+    }
+
+    .project-img img {
+        width: 30rem;
+    }
+      
+    .project-img video {
+        width: 30rem;
+    }
+
+    .titulo-project-titulo {
+        font-size: 1.5rem;
+    }
+
+    .titulo-project-deploy {
+        font-size: 1.5rem;
+    }
+
+    .project-img {
+        padding: 15px;
+    }
+
+    .text-project {
+        font-size: 1.125rem;
+    }
+
+    .formacao-title-titulo {
+        font-size: 3.75rem;   
+    }
+
+    .formacao-titulo {
+        font-size: 1.5rem;
+    }
+      
+    .formacao-descricao {
+        font-size: 1.125rem;
+    }
+      
+    .formacao-date {
+       font-size: 1.0125rem; 
+    }
+      
+    .formacao-status {
+        font-size: 1.0125rem;
     }
 
     .contato {
         padding: 0;
-        padding-top: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+
+    .contato-div-titulo {
+        font-size: 3.75rem;
+    }
+
+    .contato-div-texto {
+        font-size: 1.125rem;
+    }
+
+    .contato-div-email a{
+        font-size: 2.25rem;
+    }
+      
+    .contato-div-email i{
+        font-size: 2.25rem;
+    }
+
+    .footer {
+        font-size: 0.84375rem;
     }
 }
 
@@ -639,5 +779,13 @@ body {
 @media (max-width: 400px) {
     .header-cv {
         width: 50%;
+    }
+
+    .home-texto-titulo {
+        font-size: 2rem;
+    }
+
+    .projects-form-titulo {
+        font-size: 2.25rem;
     }
 }
