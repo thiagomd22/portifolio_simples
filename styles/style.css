@@ -768,6 +768,7 @@ body {
 
     .project-img {
         padding: 0;
+        background-color: var(--cor-primaria);
     }
     
     .formacao-total {
