@@ -742,7 +742,7 @@ body {
     }
 
     .home-texto-subtitulo {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .home-texto-texto {
@@ -805,7 +805,11 @@ body {
     }
 
     .home-texto-titulo {
-        font-size: 2rem;
+        font-size: 1.90rem;
+    }
+
+    .home-texto-subtitulo {
+        font-size: 1.3rem;
     }
 
     .projects-form-titulo {
